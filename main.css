@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, form {
+    padding: 24px 0;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.riscarTarefa {
+    text-decoration: line-through;
+}
